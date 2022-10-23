@@ -21,6 +21,8 @@
                 Console.WriteLine(data.typesofrice[i].name);
                 Console.WriteLine(data.typesofrice[i].weight);
                 Console.WriteLine(data.typesofrice[i].price);
+                int price = data.typesofrice[i].weight * data.typesofrice[i].price;
+                Console.WriteLine("total price is of total weight" + price);
                 Console.WriteLine("------------------------");
             }
                 Console.WriteLine("-----------------");
@@ -35,6 +37,8 @@
                 Console.WriteLine(data.typesofpulses[i].name);
                 Console.WriteLine(data.typesofpulses[i].weight);
                 Console.WriteLine(data.typesofpulses[i].price);
+                int price = data.typesofpulses[i].weight * data.typesofpulses[i].price;
+                Console.WriteLine("total price is of total weight" + price);
                 Console.WriteLine("------------------------");
             }
             Console.WriteLine("-----------------");
@@ -49,6 +53,8 @@
                 Console.WriteLine(data.typesofwheat[i].name);
                 Console.WriteLine(data.typesofwheat[i].weight);
                 Console.WriteLine(data.typesofwheat[i].price);
+                int price = data.typesofwheat[i].weight * data.typesofwheat[i].price;
+                Console.WriteLine("total price is of total weight" + price);
                 Console.WriteLine("------------------------");
             }
             Console.WriteLine("-----------------");
